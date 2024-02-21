@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Greenergy - Information</title>
+        <link rel="icon" type="image/x-icon" href="images/LightGreenTransparentLeaf.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/470cbf8510.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/LightGreenTransparentLeaf.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="information.html">INFORMATION</a></li>
+                        <li><a href="practices.html">PRACTICES</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Information</h1>
+            <p>Below is some basic information on how to get started, what green, clean energy is, and more.</p>
+        </section>
+
+        <section class="information">
+            <div class="info-col">
+                <h1>What is green, clean energy?</h1>
+                <p>Green, clean energy is a type of energy that allows homeowners to efficiently use their energy. By making better use of energy, you can lower electric bills by a substantial amount.</p>
+            </div>
+            <div class="info-col">
+                <h1>How much is it to get started?</h1>
+                <p>Depending on the route you take on getting started, costs can range from the starting price of $5,000 up to $70,000 depending on where you live.</p>
+            </div>
+            <div class="info-col">
+                <h1>Some information regarding tax rebate.</h1>
+                <p>Many houseowners often can sell excess energy of how much they are producing. This provides extra income just by selling your created energy! <br>This can therefore pay back how much you've spent on obtaining your energy producer.</p>
+                <a href="index.html" class="hero-btn grn-btn"><< Home</a>
+                <a href="https://www.energy.gov/" class="hero-btn grn-btn">Learn more!</a>
+                <a href="practices.html" class="hero-btn grn-btn">>> Practices</a>
+            </div>
+        </section>
+
+        <section class="footer">
+            <h4>Contact the owner</h4>
+            <p>You can contact the owner on many platforms. Platforms include: Discord, X (Formally Twitter), Instagram, etc.</p>
+            <div class="icons">
+                <i class="fa-brands fa-discord"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </section>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px"
+            }
+        </script>
+    </body>
+</html>

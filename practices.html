@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Greenergy - Practices</title>
+        <link rel="icon" type="image/x-icon" href="images/LightGreenTransparentLeaf.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/470cbf8510.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/LightGreenTransparentLeaf.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="information.html">INFORMATION</a></li>
+                        <li><a href="practices.html">PRACTICES</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Practices</h1>
+            <p>Green, clean energy comes from natural resources, hence the term: "green".</p>
+        </section>
+
+        <section class="information"> 
+            <div class="info-col">
+                <h1>Common energy producers.</h1>
+                <p>Most of these options cost a ton but reap big rewards in the long run. Some of these options include:
+                    <br><b>Geothermal Heating Pumps</b>
+                    <br><b>Solar Water Heating</b>
+                    <br><b>Solar Energy Systems</b>
+                    <br><b>Wind Energy, etc.</b>
+                </p>
+                <a href="information.html" class="hero-btn grn-btn"><< Information</a>
+                <a href="https://www.energy.gov/" class="hero-btn grn-btn">Learn more!</a>
+            </div>
+        </section>
+
+        <section class="footer">
+            <h4>Contact the owner</h4>
+            <p>You can contact the owner on many platforms. Platforms include: Discord, X (Formally Twitter), Instagram, etc.</p>
+            <div class="icons">
+                <i class="fa-brands fa-discord"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </section>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px"
+            }
+        </script>
+    </body>
+</html>

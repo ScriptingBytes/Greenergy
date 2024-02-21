@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Greenergy - Home</title>
+        <link rel="icon" type="image/x-icon" href="images/LightGreenTransparentLeaf.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/470cbf8510.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/LightGreenTransparentLeaf.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="information.html">INFORMATION</a></li>
+                        <li><a href="practices.html">PRACTICES</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="text-box">
+                <h1>Greenergy - Making the world green and clean</h1>
+                <p>Greenergy provides homeowners with basic energy information and practices to start up their green, clean energy life.</p>
+                <a href="information.html" class="hero-btn">Want to get started? Click here!</a>
+            </div>
+        </section>
+
+        <section class="greenergy-info">
+            <h1>About Greenergy</h1>
+            <p>Below is all the information about Greenergy and why this was created.</p>
+
+            <div class="row">
+                <div class="greenergy-info-col">
+                    <h3>The purpose behind Greenergy</h3>
+                    <p>The purpose behind Greenergy was to create a website that gave homeowners the ability to start thinking about their energy and practices on manage to keep green, clean energy. This website was built for the TSA Webmaster competition event.</p>
+                </div>
+                <div class="greenergy-info-col">
+                    <h3>Why provide this information?</h3>
+                    <p>The purpose of providing this information is to give a way homeowners can switch to green, clean energy. This website is very informational with how homeowners can switch.</p>
+                </div>
+                <div class="greenergy-info-col">
+                    <h3>What is TSA?</h3>
+                    <p>TSA (Technology Student Association) is a STEM extraciricular students can participate in by allowing them to compete in different STEM activities. TSA can expand ones mind by showing what people can accomplish in the STEM field. You can learn more about TSA at the official website: tsaweb.org</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <h4>Contact the owner</h4>
+            <p>You can contact the owner on many platforms. Platforms include: Discord, X (Formally Twitter), Instagram, etc.</p>
+            <div class="icons">
+                <i class="fa-brands fa-discord"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </section>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px"
+            }
+        </script>
+    </body>
+</html>
